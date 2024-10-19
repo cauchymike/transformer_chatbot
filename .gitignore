@@ -1,0 +1,52 @@
+# Ignore virtual environment folders
+torchenv/
+data/
+
+# Ignore the entire config folder but allow specific files in the Oracle Instant Client folder
+config/
+
+# Ignore all .yaml files except specific ones
+*.yaml
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+files/
+
+
+# Ignore any SQLite database files
+*.sqlite3
+#ignore .zip files
+*.zip
+
+#ignore csv files
+*.csv
+# Ignore log files and temp files
+*.log
+*.tmp
+
+# Ignore compiled binaries
+*.pyc
+*.pyo
+*.pyd
+*.exe
+*.txt
+
+build/
+
+dist/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore macOS system files
+.DS_Store
+
+# # Allow .env files
+# !.env
+
+# Ignore all .env files except specific ones
+*.env
+
+# If you want to include a specific virtual environment, you can add:
+# !<folder_name>/
+"dist/" 
